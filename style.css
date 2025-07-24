@@ -1,0 +1,476 @@
+:root {
+  /* Font */
+  --font-base: 'Inter Tight', sans-serif;
+
+  /* Colors */
+
+  --color-text: #424153;
+  --color-heading:#161723;
+  --color-background: #ffffff;
+  --color-btn: #EE6F4B;
+  --color-border: #F8F8F8;
+  --color-line: 1px solid #E3E3E8;
+}
+
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: var(--font-base);
+   }
+
+body {
+      background: #fff;
+      color: var(--color-text)
+}
+
+
+.hero{
+    width: 100%;
+    opacity: 1;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+.hero h1{
+    text-align: center;
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: var(--color-heading);
+}
+
+.hero-container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    gap: 10px;
+     
+}
+.hero-section{
+    width: 100%;
+
+}
+
+.bowl-image{
+    width: 40%;
+    align-self: center;
+}
+
+.bowl-image img{
+ width:370px;
+ height: 370px;
+ padding: 30px;
+ 
+}
+
+.hero-box{
+       display: flex;
+       justify-content: center;
+        align-items: center;
+          
+}
+
+
+.bottom{
+    margin-left: -20px;
+}
+
+.hero-box img{
+    margin-top: -30px;
+    padding-top: 0;
+}
+
+.hero-text{
+   padding: 15px;
+ 
+}
+
+.top{
+    margin-bottom: 20px;
+}
+
+
+.ptitle{
+    font-family:var(--font-base);
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 19px;
+    line-height:150%;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+
+}
+
+.ptext{
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+
+}
+
+.hero-btn{
+    display: block;
+    margin:auto;
+    width: 370px;
+    height: 48px;
+    opacity: 1;
+    padding: 10px 40px;
+    border-radius: 6px;
+    background-color: var(--color-btn);
+    color: white;
+    border: none;
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+
+}
+
+.payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.guarantee{
+    padding: 10px;
+}
+
+
+/*Nutrition Section Styles begins */
+
+.nutrition{
+    width: 100%;
+    background-color: var(--color-border);
+    padding: 50px;
+    
+
+}
+.content{
+    width: 85%;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.n-text{
+    width: 50%;
+    padding:10px;
+}
+.n-text h1{
+    
+    color: var(--color-heading);
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.25px;
+}
+
+.n-text p{
+    padding-top: 20px;
+    width: 90%;
+    
+}
+
+.key-points{
+    width: 100%;
+    display: flex;
+    align-items: center;  
+    gap: 5px;            
+    
+}
+
+.key-points h1{
+        
+    color: var(--color-btn);
+}
+.key-points p{
+    margin: 0;
+    padding:10px;
+    
+}
+
+.nutrition hr{
+    border: var(--color-line);
+    width: 90%;
+}
+.n-btn{
+    width: 100%;
+    margin-top: 35px;
+
+}
+.n-image{
+    width: 40%;
+    padding: 10px;
+}
+
+/*Nurtition section styles ends here */
+
+/* Gastro Health Section Styles begins here */
+
+.gastro{
+    width: 100%;
+    background-color: var(--color-background);
+    padding: 50px;
+}
+
+.gastro .content {
+  display: flex;
+  align-items: center;    
+  justify-content: center; 
+}
+
+.g-image{   
+    width: 50%;
+    padding:10px;
+    
+}
+
+.g-text{
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.g-text h1{
+    color: var(--color-heading);
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.25px;
+}
+
+.gtext{
+    padding-top: 20px;
+}
+
+/* Gastro Health Section Styles ends here */
+
+/* Prebiotics Section Styles begins here */
+
+.biotics{
+    width: 100%;
+    background-color: var(--color-background);
+    padding: 50px;
+}
+
+.biotics .content {
+  display: flex;
+  align-items: center;    
+  justify-content: center; 
+}
+
+
+.b-text{   
+    width: 50%;
+    padding:10px;
+    
+}
+
+
+
+.b-image{
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.b-text h1{
+    color: var(--color-heading);
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.25px;
+}
+
+.biotext{
+    padding-top: 20px;
+}
+
+/* Prebiotics Section Styles endshere */
+
+
+/*Mobile View */
+
+@media (max-width: 768px) {
+  /* Stack hero sections vertically */
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-section:first-of-type{
+    order: 2;
+  }
+
+  .bowl-image {
+    order: 1; /*comes first*/
+    width: 100%;
+    text-align: center;
+  }
+
+  .bowl-image img {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .hero h1 {
+    margin: auto;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    padding: 0;
+  }
+
+  .hero-section:last-of-type {
+    order: 3; 
+ }
+
+
+ .hero-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+}
+
+.hero-box img {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px; 
+  width: 80px; 
+  height: auto;
+}
+
+
+  .hero-btn {
+    order: 4;
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .payment {
+    order: 5;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .hero-text{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.key-points{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.ptext, .ptitle {
+  text-align: center;
+}
+
+ .n-text .ptitle {
+    margin-left: 20px;
+ }
+
+
+
+/* Resize images */
+.n-image img, .g-image img,  
+.b-image img {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+}
+
+
+
+/* Resize buttons */
+.hero-btn {
+  width: 90%;
+  font-size: 16px;
+  padding: 12px 16px;
+  margin: 10px auto;
+  display: block;
+}
+.n-btn{
+    width: 100%;
+    height: 100%;
+  font-size: 16px;
+  padding: 12px 16px;
+  margin: 10px auto;
+  display: block;
+}
+
+
+
+  .nutrition .content, 
+   .biotics .content{
+    flex-direction: column-reverse;
+  }
+  .gastro .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .n-text, .n-image, .g-image,
+  .g-text, .b-text, .b-image {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .n-text h1,
+  .g-text h1,
+  .b-text h1 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .key-points {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .key-percent {
+    font-size: 2rem;
+  }
+
+  .ptext {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .n-btn {
+    width: 100%;
+    font-size: 15px;
+  }
+}
